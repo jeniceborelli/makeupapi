@@ -1,7 +1,7 @@
 let apiResponse = []
 
 async function fetchData(){
-    return await fetch("http://makeup-api.herokuapp.com/api/v1/products.json").then (async function(response){
+    return await fetch("https://makeup-api.herokuapp.com/api/v1/products.json").then (async function(response){
         console.log(response)
          apiResponse =await response.json()
      })
